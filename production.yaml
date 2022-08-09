@@ -18,6 +18,7 @@ spec:
           tag: {{.IMAGE_TAG}}
         ingress:
           host: *
+          ingressClassName: nginx
       version: v3
   destination:
     namespace: production
