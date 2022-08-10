@@ -17,7 +17,7 @@ spec:
           repository: vfarcic/devops-toolkit
           tag: {{.IMAGE_TAG}}
         ingress:
-          host: devopstoolkit.127.0.0.1.nip.io
+          host: devopstoolkitseries.com
       version: v3
   destination:
     namespace: production
